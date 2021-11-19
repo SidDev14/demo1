@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1, h2{
+    line-height:1;
+}
+.container{
+    margin-inline: auto;
+    width:min(90%, 70.5rem);
+}
+body{
+    margin:0;
+    padding:0;
+    font-size: 1.3125rem;
+    line-height:1.1;
+}
+header{
+    background-color: rgb(1, 222, 177);
+    padding:1.5em 7em;
+    
+}
+.section1{
+    background-color: white;
+    padding:1.5em 1em;
+}
+.section2{
+    
+    background-color:rgb(20, 20, 31);
+    color:white;
+    padding:1.5em 1em;
+}
+.section3{
+    background-color: rgb(87, 46, 27);
+    color:white;
+    padding:1.5em 1em;
+}
+.center{
+    text-align: center;
+}
+.split{
+    display: flex;
+}
+.img{
+    width:310px;
+}
